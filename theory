@@ -1,6 +1,8 @@
 'git add .' = inclui atualizações do arquivo no próximo commit.
 'git commit -m 'nome da atualização' = manda as alterações para o repositório.
 'git push' = envia o conteúdo de um repositório local para um remoto.
+`git log`= volta aos commites anteriores do seu repositório.
+`git ls-files` = veo que salvou na nuvem depois do git push.
 
 'pwd' = diz aonde você está no terminal.
 'ls' = lista o conteúdo do repositório local, se for 'ls -l' mostra a mudamça do comportamento sobre o arquivo.
@@ -11,4 +13,19 @@ para mudar a permissão de um repositório tem que usar como base a tabela e no 
 'cp' = copia os arquivos do diretório atual para uma pasta diferente.
 'mv' = move ou renomeia arquivos.
 'rm' = remove arquivos ou diretórios.
-'find' = busca arquivos em um diretório.
+'find' = busca arquivos em um diretório. 
+para alterar o mês a data ou a hora do repositório eu uso: `touch -t <mesdatahora> <nome do arq>`
+para gerarduas chaves de SSH (uma pública e outra privada) = `ssh-keygen -t rsa`
+`ls -tpm`= organiza os arquivos.
+`nano midls`= cria uma pasta organizadora.
+`tar -cvf <nome do arq> ` = compacta um arquivo em tar.
+`tar -xf <nome do arq>` = descompacta o arquivo.
+`groups $<nome do arq>` = imprime os grupos que o usuário está.
+`tr`= traduz e exclui caracteres - ex: `tr `\0 ` ` \n` ` - o primeiro diz o que tem e o segundo para o que você quer mudar.
+`bash` = executa o programa.
+`#!/bin/bash` = diz que é um programa shell.
+`du` = estima o uso do espaco do arquivo.
+`ìfconfig` = exibe informacoes sobre interfaces de rede.
+` | ` = usado para direcionar a saída de um comando para a entrada de outro.
+`grep` = filtra linhas que correspondem a um padrão especifico - quando usado com `ether` estão linhas qe contém informacões sobre o endereco do Mac.
+`truncate -s` = muda o número antes da data.
