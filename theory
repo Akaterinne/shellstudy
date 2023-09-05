@@ -1,0 +1,2 @@
+'git add .' = inclui atualizações do arquivo no próximo commit.
+'git commit -m 'nome da atualização'
