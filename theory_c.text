@@ -9,6 +9,33 @@ compila com as flags: 'cc -Wall -Wextra -Werror <nome do arq>'
 após o nome da função temos os parametros entre colchetes.
 '/*     */' = tudo colocado entre barras e asteristicos é um comentario ou nota e não vai ser executado.
 'if' = e se, se isso for verdade, faça isso.
-'for' = enquanto isso for verdade, faça isso.
+'for' = enquanto isso for verdade, faça isso, executa o loop sobre os elementos de um array.
 'else' = se for o caso faça isso, se não for, faça outra coisa.
 em cima de todo código coloca '#include <biblioteca>'
+'while' = executa o loop enquanto a condição for verdadeira.
+ponteiro sem * no printf ou write você está acessando o endereço de memória, ponteiro com * no mesmo lugar você está acessando a variavel.
+para usar um ponteiro eu sempre tenho que declarar uma variavel antes.
+biblioteca do printf é stdio.h do write é unistd.h
+'printf(" %p\n",  ) ' imprime valores de ponteiro, se for '%s' imprime string, '%u' saida de unsigned int, se for '%d' imprini valores inteiros.
+quando eu preciso criar uma função que eu troque o valor de dois inteiros eu tenho que criar uma variavel temporaria.
+quando eu quero printar mais de uma coisa eu coloco "%d" para cada uma, ex: printf ("x = %d\n, y = %d\n" x, y)
+quando eu declaro int tab[3] =  eu peço pro programa fornecer 3 ints na stack.
+para divisão usa o simbolo '/'.
+para o resto da divisão usamos '%'
+string de caracteres = é uma sequencia de caracteres - último caracter tem que ser nulo que indica o final da string.
+quando no write você vai imprimir uma string , para ele calcular o bytes voce coloca strlen - ex: write(1, str, strlen(str)
+'&&" = usado para combinar duas expressões lógicas e avalia se ambas são verdadeiras.
+unsigned = representa valores não negativos, é usado junto com o int.
+' ||' = ou.
+matriz = estrutura de dados que permite organizar elementos em forma de tabela - ex: int mapa[4][4] (tabela 4x4), mapa[0][0] (linha 1 e coluna 1).
+'argc' = número de comandos passados para o programa na linha de comando, incluindo o nome do programa como primerio elemento.
+'argv' = array de ponteiros para strings: cada elemento dessa array aponta para um dos argumentos passados na linha de comando.
+'str[i] + = 'a' - 'A'' = transforma maiscula em minuscula.
+'str[i] - = 'a' - 'A'' = transforma minuscula em maiscula.
+
+função strcpy = é usado para copiar um conteúdo de um string para outro - tanto a string de origem como a de destino precisam ter um ponteiro - a de destino deve ser grande o suficiente para armazenar a cópia.
+função strncpy = cópia de uma parte de uma string para outra string - n vai ser o número máximo de caracteres a serem copiados.
+função malloc = faz a alocação dinâmica da memória, quando você não conhece o tamanho exato da memória que vai precisar.
+função free = libera a memória armazenada pelo malloc, malloc retorna um ponteiro nulo se a alocação falhar.
+função strlcpy = copia uma string de origem para uma string de destino, previne erros - usa size (número maximo de caracteres) - você usa: 'i + 1 < size' para garantir que a cópia da string da fonte para o destino não exceda o tam máximo, e na hora de printar usa 'sizeof(destiantiom).
+
