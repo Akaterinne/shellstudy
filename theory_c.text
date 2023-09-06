@@ -32,7 +32,9 @@ matriz = estrutura de dados que permite organizar elementos em forma de tabela -
 'argv' = array de ponteiros para strings: cada elemento dessa array aponta para um dos argumentos passados na linha de comando.
 'str[i] + = 'a' - 'A'' = transforma maiscula em minuscula.
 'str[i] - = 'a' - 'A'' = transforma minuscula em maiscula.
-
+makefile = arquivo que automatiza o processo de compilação - 'make' é a linha de comando responsável por por interpretar o makefile
+writespace = número arbitrario de espações em branco.
+base = é a quantidade de digitos ou simbolos diferentes disponiveis de um sistema.
 função strcpy = é usado para copiar um conteúdo de um string para outro - tanto a string de origem como a de destino precisam ter um ponteiro - a de destino deve ser grande o suficiente para armazenar a cópia.
 função strncpy = cópia de uma parte de uma string para outra string - n vai ser o número máximo de caracteres a serem copiados.
 função malloc = faz a alocação dinâmica da memória, quando você não conhece o tamanho exato da memória que vai precisar.
@@ -40,4 +42,12 @@ função free = libera a memória armazenada pelo malloc, malloc retorna um pont
 função strlcpy = copia uma string de origem para uma string de destino, previne erros - usa size (número maximo de caracteres) - você usa: 'i + 1 < size' para garantir que a cópia da string da fonte para o destino não exceda o tam máximo, e na hora de printar usa 'sizeof(destiantiom).
 função strcmp = é usado para comparar duas strings, compara e depois retorna o valor que indica a relação entre as strings ( -, 0 +), diz qual string vem antes na tabela ascii.
 função strncmp = compara os primeiros caracters de duas strings, até determinado número de caracteres especificados. Usa o n, número máximo de carcteres a serem comparados.
-função strcat =
+função strcat = é usado para juntar duas strings, adiciona uma no final da outra.                               
+função strncat = junta uma quantidade especifica de caracteres de uam string de origem para uma de destino.
+função strstr = usado para encontrar a primeira ocorrência de uma substring (subcadeia de caracteres) dentro de uma string maior. Um ponteiro é 
+função strlcat = junta duas strings de forma segura evitando transbordamento de buffer.
+função strlen = determina o comprimento de uma string (quantos caracteres tem).
+função atoi = converte uma sequência de caracteres em um valor inteiro, funciona: ignora espaços em branco no inicio, determina sinal de positivo ou negativo.
+função putnbr = fução que exiba um número passado como parâmetro.
+
+                                                                                                                                                                                                                                                     
