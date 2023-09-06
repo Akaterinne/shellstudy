@@ -1,3 +1,5 @@
+SHELL
+
 'git add .' = inclui atualizações do arquivo no próximo commit.
 'git commit -m 'nome da atualização' = manda as alterações para o repositório.
 'git push' = envia o conteúdo de um repositório local para um remoto.
