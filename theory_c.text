@@ -1,0 +1,13 @@
+C
+
+'chmod +x <nome do arq>'  = da permissão para acessar o arquivo.
+cada byte contém oito bits que podem ser entre o número zero a 255.
+se pedir um programa se usa a função a main(void) - porém se usa main para testar uma função, quando não pedi um programa.
+compila com as flags: 'cc -Wall -Wextra -Werror <nome do arq>'
+'void' = significa vazio, a função não retorna nada.
+'write(1, &i, 1)' - o meu número se for 0 diz que está recebendo, se 1 está enviando e se 2 está vazio, o segundo é o endereço e a direção para aonde quer(ponteiro), e o terceiro número é a quantidade de bytes.
+após o nome da função temos os parametros entre colchetes.
+'/*     */' = tudo colocado entre barras e asteristicos é um comentario ou nota e não vai ser executado.
+'if' = e se, se isso for verdade, faça isso.
+'for' = enquanto isso for verdade, faça isso.
+'else' = se for o caso faça isso, se não for, faça outra coisa.
