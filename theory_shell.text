@@ -20,8 +20,8 @@ para alterar o mês a data ou a hora do repositório eu uso: `touch -t <mesdatah
 para gerarduas chaves de SSH (uma pública e outra privada) = `ssh-keygen -t rsa`
 `ls -tpm`= organiza os arquivos.
 `nano midls`= cria uma pasta organizadora.
-`tar -cvf <nome do arq> ` = compacta um arquivo em tar.
-`tar -xf <nome do arq>` = descompacta o arquivo.
+`tar -cf <nome do arq>.tar *` = compacta um arquivo em tar.
+`tar -xf <nome do arq>.tar` = descompacta o arquivo.
 `groups $<nome do arq>` = imprime os grupos que o usuário está.
 `tr`= traduz e exclui caracteres - ex: `tr `\0 ` ` \n` ` - o primeiro diz o que tem e o segundo para o que você quer mudar.
 `bash` = executa o programa.
