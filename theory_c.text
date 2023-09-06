@@ -11,3 +11,4 @@ após o nome da função temos os parametros entre colchetes.
 'if' = e se, se isso for verdade, faça isso.
 'for' = enquanto isso for verdade, faça isso.
 'else' = se for o caso faça isso, se não for, faça outra coisa.
+em cima de todo código coloca '#include <biblioteca>'
