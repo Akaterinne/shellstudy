@@ -38,4 +38,6 @@ função strncpy = cópia de uma parte de uma string para outra string - n vai s
 função malloc = faz a alocação dinâmica da memória, quando você não conhece o tamanho exato da memória que vai precisar.
 função free = libera a memória armazenada pelo malloc, malloc retorna um ponteiro nulo se a alocação falhar.
 função strlcpy = copia uma string de origem para uma string de destino, previne erros - usa size (número maximo de caracteres) - você usa: 'i + 1 < size' para garantir que a cópia da string da fonte para o destino não exceda o tam máximo, e na hora de printar usa 'sizeof(destiantiom).
-
+função strcmp = é usado para comparar duas strings, compara e depois retorna o valor que indica a relação entre as strings ( -, 0 +), diz qual string vem antes na tabela ascii.
+função strncmp = compara os primeiros caracters de duas strings, até determinado número de caracteres especificados. Usa o n, número máximo de carcteres a serem comparados.
+função strcat =
