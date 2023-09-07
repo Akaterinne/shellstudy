@@ -8,7 +8,7 @@ SHELL
 
 'pwd' = diz aonde você está no terminal.
 'ls' = lista o conteúdo do repositório local, se for 'ls -l' mostra a mudamça do comportamento sobre o arquivo.
-'cat' = é para você criar um arquivo.
+'cat > <nome do arquivo>' = é para você criar um arquivo.
 'mkdir' = criar um dirtório.
 para criar um link eu uso 'ln -s <arq link>'
 para mudar a permissão de um repositório tem que usar como base a tabela e no termianal usar: 'chmod <numero da tabela> <arq>'
