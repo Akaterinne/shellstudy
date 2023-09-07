@@ -30,4 +30,4 @@ para gerarduas chaves de SSH (uma pública e outra privada) = `ssh-keygen -t rsa
 `ìfconfig` = exibe informacoes sobre interfaces de rede.
 ` | ` = usado para direcionar a saída de um comando para a entrada de outro.
 `grep` = filtra linhas que correspondem a um padrão especifico - quando usado com `ether` estão linhas qe contém informacões sobre o endereco do Mac.
-`truncate -s` = muda o número antes da data.
+
